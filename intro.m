@@ -73,7 +73,7 @@ legend({'x(n)', 'x_estimation(n)'})
 
 %% parameter error
 figure
-plot(x-e).^2;
+plot((x-e).^2);
 title('estimation error')
 
 
